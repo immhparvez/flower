@@ -73,14 +73,14 @@
   align-items: center;
 }
 .pink {
-  background-image: url(/img/background/pink.png);
+  background-image: url(../img/background/pink.png);
 }
 
 .bg2 {
-  background-image: url(/img/background/bg2.png);
+  background-image: url(../img/background/bg2.png);
 }
 .bg3 {
-  background-image: url(/img/background/Rectangle\ 3.png);
+  background-image: url(../img/background/Rectangle\ 3.png);
 }
 .pink,
 .bg2,
@@ -160,7 +160,6 @@
   max-width: 1140px;
   margin: 0 auto;
   display: flex;
-  overflow: hidden;
 }
 .instagram-products-item img {
   max-width: 90%;
@@ -171,7 +170,20 @@
 .subscribebg-main {
   max-width: 1140px;
   margin: 0 auto;
-  background-image: url(/img/Rectangle\ 9.png);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px;
+  text-align: center;
+  background-position: center;
+
+  margin-bottom: 100px;
+  border-radius: 8;
+}
+.subscribebg-main {
+  max-width: 1140px;
+  margin: 0 auto;
+  background-image: url("../img/subs.png");
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 400px;
@@ -208,7 +220,7 @@ input {
   font-size: 16px;
   font-weight: 400;
   line-height: normal;
-  padding: 14px;
+  padding: 17px;
   width: 700px;
   height: 30px;
   flex-shrink: 0;
@@ -249,10 +261,10 @@ input {
   font-weight: 400;
   line-height: normal;
 }
-footer{
-    background-color: #111010;
+footer {
+  background-color: #111010 !important;
 }
-.footer-info{
-    padding: 100px 0;
-    text-align: center;
+.footer-info {
+  padding: 100px 0;
+  text-align: center;
 }
